@@ -3,14 +3,20 @@
   "version": "0.0.1",
   "description": "Bagels Game and Technology Test",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "init": "scripts/init.sh"
+    "init": "scripts/init.sh",
+    "addexpress": "scripts/add_express.sh",
+    "expressHello": "(sleep 2 && open http://localhost:3000)& node src/expressHello.js"
   },
   "keywords": [
     "bagels",
     "test"
   ],
   "author": "Charles Merriam",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

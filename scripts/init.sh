@@ -18,7 +18,7 @@ cp somewhere scripts/init.sh
 chmod +x scripts/init.sh  
 
 # Add init task to package.json to show this script
-insert '    "init": "scripts/init.sh" into package.json/scripts'
+insert '    "init": "scripts/init.sh"' into package.json/scripts
 # Commit everything as an initial commit
 git add .
 git commit -m "Initial commit"
