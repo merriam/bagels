@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "init": "scripts/init.sh",
     "addexpress": "scripts/add_express.sh",
+    "addgithub": "scripts/add_github.sh",
     "expressHello": "(sleep 2 && open http://localhost:3000)& node src/expressHello.js"
   },
   "keywords": [
