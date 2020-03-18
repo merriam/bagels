@@ -35,5 +35,5 @@ You should see "Hello to the browser!"
 Add to package.json.scripts:      
     "addexpress": "scripts/add_express.sh",
     "expressHello": "(sleep 2 && open http://localhost:3000)& node src/expressHello.js"
-    
+
 EOF
