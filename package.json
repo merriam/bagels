@@ -10,6 +10,7 @@
     "addexpress": "scripts/add_express.sh",
     "addgithub": "scripts/add_github.sh",
     "addlint": "scripts/add_lint.sh",
+    "addscript": "scripts/add_script.sh",
     "expressHello": "(sleep 2 && open http://localhost:3000)& node src/expressHello.js"
   },
   "keywords": [
